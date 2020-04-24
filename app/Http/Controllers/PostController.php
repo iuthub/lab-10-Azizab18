@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Auth;
+use Gate;
 use App\Like;
 use App\Post;
 use App\Tag;
